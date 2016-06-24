@@ -27,9 +27,10 @@
   %for british hyphenation rules use option "UKenglish", for american hyphenation rules use option "USenglish"
   %for section-numbered lemmas etc., use "numberwithinsect"
 
-\usepackage{todonotes}
+%\usepackage{todonotes}
 \usepackage{microtype}%if unwanted, comment out or use option "draft"
 \usepackage{url}
+\input{edit-macros.tex}
 
 \bibliographystyle{plain}%the recommended bibstyle
 
@@ -39,7 +40,8 @@
 \titlerunning{16252 -- Perspectives Workshop: Engineering Academic Software}%optional
 
 \author[1]{Carole Goble}
-  \affil[1]{University of Manchester, England \url{mailto:carole.goble@manchester.ac.uk}}
+  \affil[1]{University of Manchester, England \url{
+mailto:carole.goble@manchester.ac.uk}}
 
 \author[2]{James Howison}
   \affil[2]{The University of Texas at Austin, USA  \url{mailto:jhowison@ischool.utexas.edu}}
