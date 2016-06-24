@@ -1,2 +1,9 @@
 .texpadtmp
 report.pdf
+_gitPull.command
+_gitPullPush.command
+_main.txt
+report.aux
+report.log
+report.out
+report.synctex.gz
