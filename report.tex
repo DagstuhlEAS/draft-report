@@ -278,6 +278,12 @@ organization for ICT in education and research (SURF).
 \abstracttitle{On Impactstory and Debsy}
 \abstractauthor{James Howison (University of Texas - Austin, US)} 
   
+There is a need to provide insight into the scientific software ecosystem: the set of projects, their software products, their authors, their dependencies, the papers describing them, and papers that have used the software to undertake science.  Such insight is useful for many players in the ecosystem, including end-users, software component producers, and ecosystem stewards (funders and senior scientists). I presented two systems that have attempted to gather and display this data: depsy.org and the scientific software network map.
+
+Depsy has gathered data from CRAN and PyPI as a starting point. They gather dependency and authorship information from those repositories. They identify the software in the literature using a fulltext keyword search for the name of the package. They are then able to calculate both direct mentions of each package and indirect mentions, using the Pagerank algorithm.  Depsy is produced by ImpactStory (Heather Piowawar and Jason Priem) and described in this article \url{http://www.nature.com/news/the-unsung-heroes-of-scientific-software-1.19100}
+
+The second system presented was the Scientific Software Network Map by Bogart, Howison, and Herbsleb. The Map is designed to be populated from different ecosys- tems’ software repositories, current work includes data from two locations: R scripts on github and data from the Texas Advanced Computing Center gathered about jobs submitted to their supercomputing infrastructure.  The interface uses d3 for the visualizations, and pyramid, mongo and jinja for the web and database framework. Maps are designed to directly address the needs of scientific software producers and stewards for usage-related information about packages. The tool’s features include a usage graph over time, a filterable/sortable list of packages, a “co-usage” graph showing what packages were used together, and a listing of external software (e.g. end-user scripts and packages under development) that depend on each package. The co-usage graph could be used to identify previously unknown clusters of packages and to bring their developers together.
+  
 \abstracttitle{The OSSMETER platform}
 \abstractauthor[]{Jurgen J. Vinju}
 
