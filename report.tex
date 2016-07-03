@@ -187,7 +187,17 @@ positive aspects and the failure modes, and how we have attempted to
 route around these failure modes.
 
 \abstracttitle{Software as Academic Output}
-\abstractauthor{Caroline Jay and Robert Haines}
+\abstractauthor[Caroline Jay, Robert Haines]{Caroline Jay and Robert Haines (University of Manchester, UK)}
+
+Software is now considered to be an output of academic research in its own right: venues such as SoftwareX and the Journal of Open Research Software highlight it as a primary contribution, and the UK Research Council includes a software category in the ResearchFish application used to collect the outcomes of research projects. This phenomenon is still fairly recent, however, and two questions arise when trying to determine the validity of---or, arguably, requirement for---software as a product of the research process: when should it be considered an output and; what form should that output take?
+
+To determine when software should be considered an output, we must consider its role in the research process. Is it a tool for supporting the work, or does it represent the research itself? To a computer scientist in the field of workflow management, the software would be considered a direct output, integral to the research. To a biologist, this same software would be considered a tool: useful for analyzing results, but not in itself an output of the research. For a bioinformatician both using and developing the tool, the answer is somewhere in the middle: whilst the core research may be in the life science domain, the modifications made to the tool as a result of this work could also be considered an output, advancing workflow management.
+
+If the software is integral to the research---and therefore a potential output---what form should that output take? The FAIRDOM project supports computational research that is FAIR: Findable, Accessible, Interoperable, Reusable. We suggest a modified version of these principles can be usefully applied to software too: it should be Findable, Accessible, Reusable and Extensible. To be findable, software must be searchable and discoverable by others, preferably via a persistent identifier. Accessible software can be viewed and downloaded by others. Reusable software can be re-run, potentially with other input data. Finally, Extensible software can be modified or extended to deal with new situations; to achieve this, the source code should be available.
+
+The FARE principles are a starting point for defining best practice, or the `gold standard' for academic software outputs. An exemplar of the application of these principles is described in the authors' recent paper, `ABC: Using Object Tracking to Automate Behavioural Coding', published at the 2016 ACM CHI conference. The source code is openly available on Github, making it accessible and extensible, and both this and the software environment (in a Docker container), are identified by DOIs, making the software findable and reusable.
+
+Following the FARE principles will help to ensure that software intended to be a primary output of research is fit for purpose. Applying them in any situation where software is developed as part of research---whether it is considered a primary output or not---is also recommended, to help ensure that the resulting research is robust and reproducible.
 
 \abstracttitle{Software Heritage}
 \abstractauthor{Claude Kirchner (INRIA, FR)}
