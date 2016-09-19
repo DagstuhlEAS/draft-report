@@ -2,20 +2,34 @@
 \select@language {UKenglish}
 \contentsline {section}{Executive Summary \newline \mdseries \itshape \nameref {absaut0}}{1}{section.1}
 \let \@secpagenumber \@undefined 
-\contentsline {section}{Overview of Talks}{5}{section.3}
-\contentsline {subsection}{The Netherlands eScience Center \newline \mdseries \itshape \nameref {absaut1}}{5}{subsection.3.1}
-\contentsline {subsection}{What We Have Learned About Using Software Engineering Practices in Scientific Software \newline \mdseries \itshape \nameref {absaut2}}{5}{subsection.3.2}
-\contentsline {subsection}{Domain-specific modeling languages \newline \mdseries \itshape \nameref {absaut3}}{6}{subsection.3.3}
-\contentsline {subsection}{ \newline \mdseries \itshape \nameref {absaut4}}{6}{subsection.3.4}
-\contentsline {subsection}{Organising a research team around the research software around the research team in software engineering \newline \mdseries \itshape \nameref {absaut5}}{6}{subsection.3.5}
-\contentsline {subsection}{The OSSMETER platform \newline \mdseries \itshape \nameref {absaut6}}{6}{subsection.3.6}
-\contentsline {subsection}{ABC: Using Object Tracking to Automate Behavioural Coding \newline \mdseries \itshape \nameref {absaut7}}{7}{subsection.3.7}
-\contentsline {subsection}{A Short (and Probably Incomplete) History of Research Software Engineers in the UK \newline \mdseries \itshape \nameref {absaut8}}{7}{subsection.3.8}
-\contentsline {subsection}{Code Work in Science: How it changes, and Why it matters how we talk about change \newline \mdseries \itshape \nameref {absaut9}}{7}{subsection.3.9}
-\contentsline {subsection}{Software Metadata: Describing ``dark software'' in Geosciences \newline \mdseries \itshape \nameref {absaut10}}{8}{subsection.3.10}
-\contentsline {subsection}{Restoring reproducibility: Making scientist software discoverable \newline \mdseries \itshape \nameref {absaut11}}{8}{subsection.3.11}
-\contentsline {subsection}{Lessons from the YT project \newline \mdseries \itshape \nameref {absaut12}}{8}{subsection.3.12}
-\contentsline {subsection}{The Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE) \newline \mdseries \itshape \nameref {absaut13}}{8}{subsection.3.13}
-\contentsline {subsection}{Sustainability Design \newline \mdseries \itshape \nameref {absaut14}}{9}{subsection.3.14}
-\contentsline {section}{Research questions}{9}{section.4}
-\contentsline {section}{Breakout sessions}{9}{section.5}
+\contentsline {section}{Overview of Talks}{6}{section.3}
+\contentsline {subsection}{Sustainable Software for Science \newline \mdseries \itshape \nameref {absaut1}}{6}{subsection.3.1}
+\contentsline {subsection}{Supporting Research Software Engineering \newline \mdseries \itshape \nameref {absaut2}}{6}{subsection.3.2}
+\contentsline {subsection}{Sustainability Design \newline \mdseries \itshape \nameref {absaut3}}{7}{subsection.3.3}
+\contentsline {subsection}{What We Have Learned About Using Software Engineering Practices in Scientific Software \newline \mdseries \itshape \nameref {absaut4}}{7}{subsection.3.4}
+\contentsline {subsection}{Lessons from the YT project \newline \mdseries \itshape \nameref {absaut5}}{7}{subsection.3.5}
+\contentsline {subsection}{Software as Academic Output \newline \mdseries \itshape \nameref {absaut6}}{8}{subsection.3.6}
+\contentsline {subsection}{Software Heritage \newline \mdseries \itshape \nameref {absaut7}}{9}{subsection.3.7}
+\contentsline {subsection}{Software Metadata: Describing ``dark software'' in Geosciences \newline \mdseries \itshape \nameref {absaut8}}{9}{subsection.3.8}
+\contentsline {subsection}{Organising a research team around the research software around the research team in software engineering \newline \mdseries \itshape \nameref {absaut9}}{9}{subsection.3.9}
+\contentsline {subsection}{Software Citation --- Principles, Discussion, and Metadata \newline \mdseries \itshape \nameref {absaut10}}{9}{subsection.3.10}
+\contentsline {subsection}{Katy Kuksenok (University of Washington - Seattle, US) \newline \mdseries \itshape \nameref {absaut11}}{10}{subsection.3.11}
+\contentsline {subsection}{ACL: restoring reproducibility --- Making scientist software discoverable \newline \mdseries \itshape \nameref {absaut12}}{10}{subsection.3.12}
+\contentsline {subsection}{A Short (and Probably Incomplete) History of Research Software Engineers in the UK \newline \mdseries \itshape \nameref {absaut13}}{10}{subsection.3.13}
+\contentsline {subsection}{101companies - making a failing project succeed \newline \mdseries \itshape \nameref {absaut14}}{11}{subsection.3.14}
+\contentsline {subsection}{UE eScience Institute Initiatives \newline \mdseries \itshape \nameref {absaut15}}{12}{subsection.3.15}
+\contentsline {subsection}{The Netherlands eScience Center \newline \mdseries \itshape \nameref {absaut16}}{12}{subsection.3.16}
+\contentsline {subsection}{On Impactstory and Debsy \newline \mdseries \itshape \nameref {absaut17}}{13}{subsection.3.17}
+\contentsline {subsection}{The OSSMETER platform \newline \mdseries \itshape \nameref {absaut18}}{14}{subsection.3.18}
+\contentsline {subsection}{Code Work in Science: How it changes, and Why it matters how we talk about change \newline \mdseries \itshape \nameref {absaut19}}{14}{subsection.3.19}
+\contentsline {subsection}{Restoring reproducibility: Making scientist software discoverable \newline \mdseries \itshape \nameref {absaut20}}{14}{subsection.3.20}
+\contentsline {section}{Breakout sessions}{15}{section.4}
+\contentsline {subsection}{Research Software Project Typology \newline \mdseries \itshape \nameref {absaut21}}{15}{subsection.4.1}
+\contentsline {subsection}{Empirical study of software in conferences \newline \mdseries \itshape \nameref {absaut22}}{15}{subsection.4.2}
+\contentsline {subsection}{Examining sustainability for a particular project \newline \mdseries \itshape \nameref {absaut23}}{15}{subsection.4.3}
+\contentsline {subsection}{Making the impact of software more visible\relax }{15}{subsection.4.4}
+\contentsline {subsection}{Reviewing FORCE11 software citation principles\relax }{15}{subsection.4.5}
+\contentsline {subsection}{Future Research directions\relax }{15}{subsection.4.6}
+\contentsline {subsection}{Design of the Manifesto \newline \mdseries \itshape \nameref {absaut27}}{15}{subsection.4.7}
+\contentsline {subsection}{Academic Software Engineering Roles Typology \newline \mdseries \itshape \nameref {absaut28}}{15}{subsection.4.8}
+\contentsline {section}{Research questions}{15}{section.5}
