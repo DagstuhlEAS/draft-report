@@ -31,5 +31,5 @@
 \contentsline {subsection}{Reviewing FORCE11 Software Citation Principles\relax }{16}{subsection.4.5}
 \contentsline {subsection}{Future Research directions\relax }{16}{subsection.4.6}
 \contentsline {subsection}{Design of the Manifesto \newline \mdseries \itshape \nameref {absaut27}}{16}{subsection.4.7}
-\contentsline {subsection}{Academic Software Engineering Roles Typology \newline \mdseries \itshape \nameref {absaut28}}{16}{subsection.4.8}
-\contentsline {section}{Research questions}{16}{section.5}
+\contentsline {subsection}{Academic Software Engineering Roles Typology \newline \mdseries \itshape \nameref {absaut28}}{17}{subsection.4.8}
+\contentsline {section}{Research questions}{17}{section.5}
