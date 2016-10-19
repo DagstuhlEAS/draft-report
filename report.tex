@@ -411,7 +411,7 @@ Taken from a presentation given at the National Library of Medicine (USA), this 
 % ==================================================
 \section{Breakout sessions}
 
-The afternoons of the workshop were dedicated to focused break-out groups. The groups were defined in a plenary discussion using a board with sticky notes. Everybody could propose topics. The topics were grouped on the board by topic similarity. Some groups continued over more than one day in order to arrive at a tangible results. All groups made notes into a single shared document. This same document was the source for the current report as well as the manifesto.
+The afternoons of the workshop were dedicated to focused break-out groups. The groups were defined in a plenary discussion using a board with sticky notes. Everybody could propose topics. The topics were grouped on the board by topic similarity. Some groups continued over more than one day in order to arrive at a tangible result. All groups made notes into a single shared document. This same document was the source for the current report as well as the manifesto.
 
 The breakout groups are detailed below in arbitrary order.
 
@@ -419,9 +419,44 @@ The breakout groups are detailed below in arbitrary order.
 \abstracttitle{Research Software Project Typology}
 \abstractauthor{Benoit Combemale, Jurgen Vinju, Robert Hirschfeldt, Ralf Laemmel, Daniel Garijo, Christoph Becker, Caroline Jay, Robert Haines, Cecilia Aragon}
 
-Our goal here was to characterize academic software projects in a way that is meaningful for to the other ongoing discussions, such as measuring software output and acquiring funding for research software, and getting recognition of software output). The idea was that different types of projects require a different kind of treatment; \eg when discussing their motivation, impact, costs, risks, strengths and weaknesses. We'd like this to be an ontology of sorts.
+Our goal here was to characterize academic software projects in a way that is meaningful for to the other ongoing discussions, such as measuring software output and acquiring funding for research software, and getting recognition of software output). The idea was that different types of projects require a different kind of treatment; \eg when discussing their motivation, impact, costs, risks, strengths and weaknesses. We'd like this to be an ontology of sorts; and largely corresponding to the general software ontology at \url{http://ontosoft.org/ontology/software/}, but more specialized to the academic software context.
 
-The break-out group lasted during two days and has produced a work-in-progress.\footnote{\url{https://w3id.org/softwareCredit}} The current status is that we are aligning the software credit ontology to DOAP and schema.org. We will soon list the crosswalk to CodeMeta terms.
+A particular focus was on the roles of academic software engineers and researchers take up in the context of their software projects. This discussion led to the creation of a ``Software Credit Role'' ontology (Figure~\ref{fig:credits}) at \url{https://w3id.org/softwareCredit} by Daniel Garijo et al. The goal of this document is to provide a frame of context for appreciating the (career) contributions of academic software contributors in the context of hiring processes and progress reports. The current status is that we are aligning the software credit ontology to DOAP and schema.org. We will soon list the crosswalk to CodeMeta terms.
+
+\begin{figure}[t]
+\includegraphics[width=\textwidth]{credits}	
+\caption{Excerpt from \url{https://w3id.org/softwareCredit} depicting the Person concept with the different roles a person could take upon themselves.\label{fig:credits}}
+\end{figure}
+
+A beginning was made with brainstorming towards a number of alternative starting points. The first session led to divisions along the lines of the following concepts: intentions of usage, 
+degree of openness,
+funding,
+contributors (single person, group, closed/open community),
+community (scale, culture, rights, license)
+maturity (process),
+accessibility/openness,
+Openness
+Organizational form
+Engineering properties
+(Code quality,
+Test coverage,
+Benchmarking,
+Release management,
+Semantic versioning,
+other metrics
+).
+
+\begin{figure}[t]
+\includegraphics[width=\textwidth]{ontologymap}	
+\caption{A mindmap of a brainstorm towards an academic software project typology\ref{fig:ontologymap}}.
+\end{figure}
+The second brainstorm resulted in the comparable mindmap depicted in Figure~\ref{fig:ontologymap}.
+
+
+The final discussion produced a faceted classification with yet different distinctions mainly focused on purpose, intentions and motivations. This finally resulted in a questionnaire (shaped as an online spreadsheet) which we filled in for a few dozen projects to see if the distinctions would generate a meaningful overview of typical academic software projects.
+
+The resulting material produced enough to start working on a common paper on the topic. It is important to understand what we are talking about exactly when describing, analyzing and trying to improve academic software projects. It must be noted that clear classifications of software projects in general are not commonplace. 
+
 
 %------------------------------------------------------------------------
 \abstracttitle{Empirical Study of Software in Conferences}
@@ -578,15 +613,6 @@ From the manifesto:
 
 
 \emph{Analysis of scientific software ecosystem metadata}
-
-
-%------------------------------------------------------------------------
-\abstracttitle{Academic Software Engineering Roles Typology}
-\abstractauthor{Daniel Garijo, Rob van Nieuwpoort, Jurgen Vinju}
-
-%:TODO (OR DELETE) -- Academic Software Engineering Roles Typology
-
-\on{I could find no notes for this breakout. I suggest to delete it.}
 
 
 %------------------------------------------------------------------------
