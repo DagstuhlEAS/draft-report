@@ -12,11 +12,11 @@
 \contentsline {subsection}{Software Heritage \newline \mdseries \itshape \nameref {absaut7}}{9}{subsection.3.7}
 \contentsline {subsection}{Software Metadata: Describing ``Dark Software'' in Geosciences \newline \mdseries \itshape \nameref {absaut8}}{9}{subsection.3.8}
 \contentsline {subsection}{Organising a Research Team around the Research Software around the Research Team in Software Engineering \newline \mdseries \itshape \nameref {absaut9}}{9}{subsection.3.9}
-\contentsline {subsection}{Software Citation --- Principles, Discussion, and Metadata \newline \mdseries \itshape \nameref {absaut10}}{9}{subsection.3.10}
+\contentsline {subsection}{Software Citation --- Principles, Discussion, and Metadata \newline \mdseries \itshape \nameref {absaut10}}{10}{subsection.3.10}
 \contentsline {subsection}{Best Practices by Any Other Name \newline \mdseries \itshape \nameref {absaut11}}{10}{subsection.3.11}
 \contentsline {subsection}{ACL: Restoring Reproducibility --- Making Scientist Software Discoverable \newline \mdseries \itshape \nameref {absaut12}}{10}{subsection.3.12}
-\contentsline {subsection}{A Short (and Probably Incomplete) History of Research Software Engineers in the UK \newline \mdseries \itshape \nameref {absaut13}}{10}{subsection.3.13}
-\contentsline {subsection}{101companies --- Making a Failing Project Succeed \newline \mdseries \itshape \nameref {absaut14}}{11}{subsection.3.14}
+\contentsline {subsection}{A Short (and Probably Incomplete) History of Research Software Engineers in the UK \newline \mdseries \itshape \nameref {absaut13}}{11}{subsection.3.13}
+\contentsline {subsection}{101companies --- Making a Failing Project Succeed \newline \mdseries \itshape \nameref {absaut14}}{12}{subsection.3.14}
 \contentsline {subsection}{UE eScience Institute Initiatives \newline \mdseries \itshape \nameref {absaut15}}{12}{subsection.3.15}
 \contentsline {subsection}{The Netherlands eScience Center \newline \mdseries \itshape \nameref {absaut16}}{12}{subsection.3.16}
 \contentsline {subsection}{On Impactstory and Depsy \newline \mdseries \itshape \nameref {absaut17}}{13}{subsection.3.17}
@@ -25,7 +25,7 @@
 \contentsline {subsection}{Restoring Reproducibility: Making Scientist Software Discoverable \newline \mdseries \itshape \nameref {absaut20}}{15}{subsection.3.20}
 \contentsline {section}{Breakout sessions}{15}{section.4}
 \contentsline {subsection}{Research Software Project Typology \newline \mdseries \itshape \nameref {absaut21}}{15}{subsection.4.1}
-\contentsline {subsection}{Empirical Study of Software in Conferences \newline \mdseries \itshape \nameref {absaut22}}{15}{subsection.4.2}
+\contentsline {subsection}{Empirical Study of Software in Conferences \newline \mdseries \itshape \nameref {absaut22}}{16}{subsection.4.2}
 \contentsline {subsection}{Examining Sustainability for a Particular Project \newline \mdseries \itshape \nameref {absaut23}}{16}{subsection.4.3}
 \contentsline {subsection}{Making the Impact of Software more Visible\relax }{16}{subsection.4.4}
 \contentsline {subsection}{Reviewing FORCE11 Software Citation Principles\relax }{16}{subsection.4.5}
