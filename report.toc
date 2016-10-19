@@ -25,7 +25,7 @@
 \contentsline {subsection}{Restoring Reproducibility: Making Scientist Software Discoverable \newline \mdseries \itshape \nameref {absaut20}}{15}{subsection.3.20}
 \contentsline {section}{Breakout sessions}{15}{section.4}
 \contentsline {subsection}{Research Software Project Typology \newline \mdseries \itshape \nameref {absaut21}}{15}{subsection.4.1}
-\contentsline {subsection}{Empirical Study of Software in Conferences \newline \mdseries \itshape \nameref {absaut22}}{16}{subsection.4.2}
+\contentsline {subsection}{Empirical Study of Software in Conferences \newline \mdseries \itshape \nameref {absaut22}}{15}{subsection.4.2}
 \contentsline {subsection}{Examining Sustainability for a Particular Project \newline \mdseries \itshape \nameref {absaut23}}{16}{subsection.4.3}
 \contentsline {subsection}{Making the Impact of Software more Visible\relax }{16}{subsection.4.4}
 \contentsline {subsection}{Reviewing FORCE11 Software Citation Principles\relax }{16}{subsection.4.5}
