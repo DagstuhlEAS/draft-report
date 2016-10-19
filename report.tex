@@ -27,6 +27,7 @@
   %for british hyphenation rules use option "UKenglish", for american hyphenation rules use option "USenglish"
   %for section-numbered lemmas etc., use "numberwithinsect"
 
+\usepackage{xspace}
 %\usepackage{todonotes}
 \usepackage{microtype}%if unwanted, comment out or use option "draft"
 \usepackage{url}
@@ -78,6 +79,12 @@
   {1}%starting page number
 \DOI{10.5362/DagRep.1.1.1}%(DagRep.<volume no>.<issue no>.<firstpage>)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ============================================================
+\newcommand{\ie}{\emph{i.e.},\xspace}
+\newcommand{\eg}{\emph{e.g.},\xspace}
+\newcommand{\etal}{\emph{et al.}\xspace}
+\newcommand{\etc}{\emph{etc.}\xspace}
+% ==========================================================
 
 \begin{document}
 
@@ -121,7 +128,7 @@ We refer to the IEEE Internet Computing article ``Better Software, Better Resear
 \end{itemize}
 
 Society is now in the tricky situation where several deeply established academic fields
-(e.g. physics, biology, mathematics) are shifting towards total dependence on fresh concepts of software, programming technology and software engineering methodology
+(\eg physics, biology, mathematics) are shifting towards total dependence on fresh concepts of software, programming technology and software engineering methodology
 which are backed only by young and rapidly evolving fields of research (computer science and software engineering).  Full accountability and even validity of software-based research results are now duly being challenged.
 
 With the outputs of this interactive and productive perspectives workshop, we strive to contribute in a positive manner to the above challenges. We formulated taxonomies with definitions to clarify the domain, we co-authored concrete policy and process documents to improve the status and recognition of academic software development and academic software engineers, and finally we formulated a list of 18 concrete declarations of intent (``I will'' pledges). This list was presented to the WSSSPE community~\cite{wssspe_manifesto} to acquire feedback and it will be the backbone of the Dagstuhl Manifesto document we are editing. It serves to motivate change by  proposing policy changes with concrete actions and instilling positive attitudes towards academic software.
@@ -146,7 +153,7 @@ On Thursday afternoon and Friday morning we all worked together on our Dagstuhl 
 
 \textbf{Output documents} of the workshop are organized under the ``dagstuhleas'' organisation on GitHub.\footnote{\url{https://github.com/dagstuhleas}} This currently features 6 draft documents, including the current report and (a) the manifesto, (b) the Research Software Engineering Handbook, (c) a Literature Survey, (d) a Taxonomy on Software Credit Roles, and (e) a Software Award Proposal. Next to these documents, an R\&D project proposal was produced on measuring the impact of academic software.
 
-\textbf{The remaining part of this document} summarizes the morning sessions by listing the abstracts of each talk, the afternoon breakouts by describing each topic and its results, and finally the research questions on the topic of engineering academic software we have collected.
+\textbf{The remainder of this document} summarizes the morning sessions by listing the abstracts of each talk, the afternoon breakouts by describing each topic and its results, and finally the research questions on the topic of engineering academic software we have collected.
 
 \tableofcontents
 
@@ -314,7 +321,7 @@ funding models ensure that new projects fulfill these criteria.
 
 Apart from contributions to scientific publications in high-impact
 scientific journals and conferences, NLeSC's primary deliverables are
-eScience instruments (e.g., software tools, workflows). Whilst the
+eScience instruments (\eg software tools, workflows). Whilst the
 instruments may include a domain specific component, primarily these
 tools overarch multiple domains. The instruments are efficient,
 calibrated, reliable and accessible, and based on excellent standards
@@ -354,7 +361,7 @@ There is a need to provide insights into the scientific software ecosystem~\cite
 
 Depsy has gathered data from CRAN and PyPI as a starting point. They gather dependency and authorship information from those repositories. They identify the software in the literature using a fulltext keyword search for the name of the package. They are then able to calculate both direct mentions of each package and indirect mentions, using the Pagerank algorithm.  Depsy is produced by ImpactStory (Heather Piowawar and Jason Priem)~\cite{singh_chawla_unsung_2016}.
 
-The second system presented was the Scientific Software Network Map by Bogart, Howison, and Herbsleb. The Map is designed to be populated from different ecosystems' software repositories, current work including data from two locations: R scripts on GitHub, and data from the Texas Advanced Computing Center gathered about jobs submitted to their supercomputing infrastructure.  The interface uses D3 for the visualizations, and Pyramid, Mongo and Jinja for the web and database framework. Maps are designed to directly address the needs of scientific software producers and stewards for usage-related information about packages. The tool's features include a usage graph over time, a filterable/sortable list of packages, a ``co-usage'' graph showing what packages were used together, and a listing of external software (e.g. end-user scripts and packages under development) that depend on each package. The co-usage graph could be used to identify previously unknown clusters of packages and to bring their developers together.
+The second system presented was the Scientific Software Network Map by Bogart, Howison, and Herbsleb. The Map is designed to be populated from different ecosystems' software repositories, current work including data from two locations: R scripts on GitHub, and data from the Texas Advanced Computing Center gathered about jobs submitted to their supercomputing infrastructure.  The interface uses D3 for the visualizations, and Pyramid, Mongo and Jinja for the web and database framework. Maps are designed to directly address the needs of scientific software producers and stewards for usage-related information about packages. The tool's features include a usage graph over time, a filterable/sortable list of packages, a ``co-usage'' graph showing what packages were used together, and a listing of external software (\eg end-user scripts and packages under development) that depend on each package. The co-usage graph could be used to identify previously unknown clusters of packages and to bring their developers together.
 
 \abstracttitle{The OSSMETER platform}
 \abstractauthor[Jurgen J. Vinju]{Jurgen J. Vinju (CWI -- Amsterdam, The Netherlands)}
@@ -389,7 +396,7 @@ The breakout groups are detailed below in arbitrary order.
 \abstracttitle{Research Software Project Typology}
 \abstractauthor{Benoit Combemale, Jurgen Vinju, Robert Hirschfeldt, Ralf Laemmel, Daniel Garijo, Christoph Becker, Caroline Jay, Robert Haines, Cecilia Aragon}
 
-Our goal here is to characterize academic software projects in a way that is meaningful for to the other ongoing discussions, such as measuring software output and acquiring funding for research software, and getting recognition of software output). The idea is that different types of projects require a different kind of treatment; e.g. when discussing their motivation, impact, costs, risks, strengths and weaknesses. We'd like this to be an ontology of sorts.
+Our goal here was to characterize academic software projects in a way that is meaningful for to the other ongoing discussions, such as measuring software output and acquiring funding for research software, and getting recognition of software output). The idea was that different types of projects require a different kind of treatment; \eg when discussing their motivation, impact, costs, risks, strengths and weaknesses. We'd like this to be an ontology of sorts.
 
 The break-out group lasted during two days and has produced a work-in-progress.\footnote{\url{https://w3id.org/softwareCredit}} The current status is that we are aligning the software credit ontology to DOAP and schema.org. We will soon list the crosswalk to CodeMeta terms.
 
@@ -400,7 +407,7 @@ The goal of this group was to explore the possibility of carrying out an empiric
 
 The group mainly focused on identifying (i) potential \emph{research questions} to be addressed, and (ii) \emph{procedural questions} concerning the logistics of carrying out such a study.
 
-Some of the specific research questions considered are
+Some of the specific research questions considered were:
 \begin{itemize}
 \item Which software ends up being mentioned in papers?
 \item Who are the developers? (PhD students? Research Software Engineers?)
@@ -424,7 +431,10 @@ Katy Huff notes that the Berkeley Institute for Data Science (BIDS, with collabo
 
 
 \abstracttitle{Examining Sustainability for a Particular Project}
-\abstractauthor{James Howison, Carole Goble}
+% \abstractauthor{James Howison, Carole Goble}
+\abstractauthor{Carole Goble, Katie Kuksenok, Christoph Becker, Daniel Garijo, Mike Croucher, Dan Katz}
+
+\on{Dan, can you synthesize a short summary here?}
 
 \abstracttitle{Making the Impact of Software more Visible}
 
