@@ -25,10 +25,9 @@
 \contentsline {subsection}{Restoring Reproducibility: Making Scientist Software Discoverable \newline \mdseries \itshape \nameref {absaut20}}{15}{subsection.3.20}
 \contentsline {section}{Breakout sessions}{15}{section.4}
 \contentsline {subsection}{Research Software Project Typology \newline \mdseries \itshape \nameref {absaut21}}{15}{subsection.4.1}
-\contentsline {subsection}{Empirical Study of Software in Conferences \newline \mdseries \itshape \nameref {absaut22}}{15}{subsection.4.2}
-\contentsline {subsection}{Examining Sustainability for a Particular Project \newline \mdseries \itshape \nameref {absaut23}}{16}{subsection.4.3}
-\contentsline {subsection}{Making the Impact of Software more Visible \newline \mdseries \itshape \nameref {absaut24}}{17}{subsection.4.4}
-\contentsline {subsection}{Reviewing FORCE11 Software Citation Principles \newline \mdseries \itshape \nameref {absaut25}}{17}{subsection.4.5}
-\contentsline {subsection}{Future Research directions \newline \mdseries \itshape \nameref {absaut26}}{18}{subsection.4.6}
-\contentsline {subsection}{Design of the Manifesto \newline \mdseries \itshape \nameref {absaut27}}{18}{subsection.4.7}
-\contentsline {subsection}{Academic Software Engineering Roles Typology \newline \mdseries \itshape \nameref {absaut28}}{19}{subsection.4.8}
+\contentsline {subsection}{Empirical Study of Software in Conferences \newline \mdseries \itshape \nameref {absaut22}}{16}{subsection.4.2}
+\contentsline {subsection}{Examining Sustainability for a Particular Project \newline \mdseries \itshape \nameref {absaut23}}{17}{subsection.4.3}
+\contentsline {subsection}{Making the Impact of Software more Visible \newline \mdseries \itshape \nameref {absaut24}}{18}{subsection.4.4}
+\contentsline {subsection}{Reviewing FORCE11 Software Citation Principles \newline \mdseries \itshape \nameref {absaut25}}{18}{subsection.4.5}
+\contentsline {subsection}{Future Research directions \newline \mdseries \itshape \nameref {absaut26}}{19}{subsection.4.6}
+\contentsline {subsection}{Design of the Manifesto \newline \mdseries \itshape \nameref {absaut27}}{19}{subsection.4.7}
