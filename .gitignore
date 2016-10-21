@@ -9,4 +9,6 @@ report.out
 report.synctex.gz
 .DS_Store
 _*
+report.blg_*
 report.blg
+scg.bib
