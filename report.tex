@@ -527,7 +527,7 @@ Carole wants to get large projects, funders, publishers, institutions to support
 This breakout group discussed various aspects of sustainability of scientific software:
 How can we ensure sustainability of scientific software? What does this mean for a particular project? Does it make sense to talk about sustainability of software divorced from the sustainability of the team?
 
-To produce sustainable software you need to sustain the team that produces it.
+To produce sustainable software requires sustaining the team that produces it. \katznote{I don't agree with this, since new people can take over and continue an existing project when the original team stops working on it.  Even with the note at the end of this paragraph, I still don't think this is correct as written.}
 Sustainability of the software and of its team are clearly entangled, since you can say very little about the technical sustainability of a software system alone without considering the social system. Note that a sustainable team does not imply an immutable team: a sustainable team can grow or shrink, distribute and swap out team members or leadership in the long term. 
 
 A key factor related to software sustainability is \emph{technical debt}, \ie technical shortcuts to achieve a short-term goal that impact long-term quality and maintainability.
@@ -543,19 +543,19 @@ A recurring problem is the issue of obtaining funding to maintain scientific sof
 
 A fundamental problem in selected scientific fields, such as physics and astronomy, is that a huge amount of effort is invested in producing scientific software, but only published papers count towards scientists' careers. This leads inevitably to the process, ``I write the software and then I write a paper to get credit.'' We need a cultural change in the scientific community to raise awareness that scientific software itself represents valuable intellectual content and scientific innovation directly and explicitly.
 
-This breakout group discussed the status quo and ways to change it. Journals exist in Computer Science and Bio-Informatics journals that are home to intellectual contributions of software packages. Several computer science conferences explicitly support ``artifact evaluation'' where software contributions are scrutinized and appreciated as part of the academic review process. The appreciation of software as academic output does not seem to be universal across domains.
+This breakout group discussed the status quo and ways to change it. Journals exist in Computer Science and Bio-Informatics that are home to intellectual contributions of software packages. Several computer science conferences explicitly support ``artifact evaluation'' where software contributions are scrutinized and appreciated as part of the academic review process. But the appreciation of software as academic output does not seem to be universal across domains.
 
-Appreciation for software seems natural in Computer Science, which explains recent efforts in this field to making the impact of software visible. An important positive factor is the recent focus in research towards ``innovation'' and ``valorization'' which puts tangible and transferable results of Computer Science in the form of working software in the spotlight. Bio-Informatics though, is ahead of the pack, which may be due to its explicit branding as a the informatics branch of Biology. \jv{I couldn't help but add some thoughts to this previous paragraph. Please remove if it's too much}
+Appreciation for software seems more natural in Computer Science, which explains recent efforts in this field to making the impact of software visible. An important positive factor is the recent focus in research towards ``innovation'' and ``valorization'' which puts tangible and transferable results of Computer Science in the form of working software in the spotlight. Bio-Informatics though, is ahead of the pack, which may be due to its explicit branding as a the informatics branch of Biology. \jv{I couldn't help but add some thoughts to this previous paragraph. Please remove if it's too much} \katznote{I actually don't think CS is a special case that is ahead of other fields.  There are folks in a number of fields who are pushing ahead, CS is just one of these, and in many parts of CS, there is no appreciation of software.}
 
-One critical need that was identified is to explicitly include software output into the evaluation processes of both academics and academic institutions. Currently, publishing software may give you a DOI (\eg via Zenodo\footnote{\url{https://zenodo.org/}}) but this neither brings you reputation nor does it contribute to a positive evaluation per se. 
+One critical need that was identified is to explicitly include software output into the evaluation processes of both academics and academic institutions. Currently, publishing software may give you a DOI (\eg via Zenodo\footnote{\url{https://zenodo.org/}}) but this neither brings you reputation nor does it contribute to a positive evaluation per se, unless this DOI is indexed as part of your records and citations to it are credited to your metrics.
 % ON: "per se" is Latin, so no accent is needed
 Problems with making software output part of the academic process were discussed. For example, software lasts longer than the citable snapshots we have now, leading to evolving author lists and evolution between software versions, which may in turn lead to software growing far beyond the original scope. Short papers about software are too short to make the academic challenges and contributions observable, while long papers about software hide the software contributions under the traditional paper-style contributions. And finally, reading and appreciating source code is just hard especially if it is not originally written with such an audience in mind.
 
 Several possible solutions were discussed: \jv{based on the notes, but I did use some imagination here:}
 \begin{itemize}
 	\item Papers could capture more about the software's intellectual impact; \ie in a separate section akin to the standard ``research method'' and ``threats to validity'' sections.
-    \item Letters of support may be the best way to communicate software impact to tenure committees.
-    \item People have to claim their contributions more explicitly:
+    \item Letters of support may be the best way to communicate software impact to tenure committees.\footnote{This has been the case in Computer Science in the US for about 20 years, due to a National Research Council report~\cite{NRC-CS-1994} that is frequently quoted in such letters.}
+    \item People could claim their contributions more explicitly:
     	web pages are needed to document software contributions;
 		research software engineers should be motivated to co-author papers;
 		and scientists who develop software must be willing to be proud and certainly unapologetic about their software contributions in front of tenure committees. 
@@ -566,14 +566,14 @@ Several possible solutions were discussed: \jv{based on the notes, but I did use
 
 %------------------------------------------------------------------------
 \abstracttitle{Reviewing FORCE11 Software Citation Principles}
-\abstractauthor{Dan Katz, et al.\jv{et al. is not nice. who was there?}}
+\abstractauthor{Dan Katz, et al.\jv{et al. is not nice. who was there?}\katznote{I don't remember - there must be notes?}}
 
-This group came together to contribute to the FORCE11 software citation principles. From the FORCE11 website\footnote{\url{https://www.force11.org/software-citation-principles}} we quote: ``Based on a review of existing community practices, the goal of [FORCE11] was to produce a consolidated set of citation principles that may encourage broad adoption of a consistent policy for software citation across disciplines and venues.''
+This group came together to contribute to the FORCE11 software citation principles. The FORCE11 website\footnote{\url{https://www.force11.org/software-citation-principles}} says: ``Based on a review of existing community practices, the goal of [FORCE11] was to produce a consolidated set of citation principles that may encourage broad adoption of a consistent policy for software citation across disciplines and venues.''
 
 The breakout group reviewed the different personas (roles) in relation to the software citation principles to see if their interests were reflected appropriately: 
 reviewer, author of software, designer of citation style, reader of paper, user of software, funding agency, publisher.
 
-This review was been passed on to the FORCE11 Software Citation Working Group editors, leading to updates to the citation principles where these were deemed necessary, and the final version was recently published~\cite{10.7717/peerj-cs.86}, including these updates.
+This review was passed on to the FORCE11 Software Citation Working Group editors, leading to updates to the citation principles where these were deemed necessary, and the final version was recently published~\cite{10.7717/peerj-cs.86}, including these updates.
 
 
 %------------------------------------------------------------------------
@@ -592,7 +592,7 @@ Of the topics discussed the following ones were elaborated in enough detail to b
 
 \item \emph{Sustainability of software experimentation:} how can we ensure reproducibility of software experiments, not just in the short or medium term, but in the very long term?
 
-\item \emph{Software engineering tools improving productivity by tailoring to intent and skill:} not all research software requires the same development rigour and discipline as commercial software, yet all would benefit from from skills beyond that of ``hobbyist'' programmers. How can we appropriately select and adapt the level of software engineering discipline appropriate to a given research project?
+\item \emph{Software engineering tools improving productivity by tailoring to intent and skill:} not all research software requires the same development rigor and discipline as commercial software, yet all would benefit from from skills beyond that of ``hobbyist'' programmers. How can we appropriately select and adapt the level of software engineering discipline appropriate to a given research project?
 
 \item \emph{Re-tooling the bibliographic software toolchain for software citation:} existing bibliographic tools are highly tailored towards academic writing. How do we adapt the metadata and tools to get the right meta-information about software into citations?
 
