@@ -21,12 +21,11 @@
 \contentsline {subsection}{The Netherlands eScience Center \newline \mdseries \itshape \nameref {absaut16}}{12}{subsection.3.16}
 \contentsline {subsection}{On ImpactStory and depsy \newline \mdseries \itshape \nameref {absaut17}}{13}{subsection.3.17}
 \contentsline {subsection}{The OSSMETER platform \newline \mdseries \itshape \nameref {absaut18}}{14}{subsection.3.18}
-\contentsline {subsection}{Code Work in Science: How it Changes, and Why it Matters How We Talk about Change \newline \mdseries \itshape \nameref {absaut19}}{14}{subsection.3.19}
 \contentsline {section}{Breakout sessions}{14}{section.4}
-\contentsline {subsection}{Research Software Project Typology \newline \mdseries \itshape \nameref {absaut20}}{15}{subsection.4.1}
-\contentsline {subsection}{Empirical Study of Software in Conferences \newline \mdseries \itshape \nameref {absaut21}}{16}{subsection.4.2}
-\contentsline {subsection}{Examining Sustainability for a Particular Project \newline \mdseries \itshape \nameref {absaut22}}{17}{subsection.4.3}
-\contentsline {subsection}{Making the Impact of Software more Visible \newline \mdseries \itshape \nameref {absaut23}}{17}{subsection.4.4}
-\contentsline {subsection}{Reviewing FORCE11 Software Citation Principles \newline \mdseries \itshape \nameref {absaut24}}{19}{subsection.4.5}
-\contentsline {subsection}{Future Research directions \newline \mdseries \itshape \nameref {absaut25}}{19}{subsection.4.6}
-\contentsline {subsection}{Design of the Manifesto \newline \mdseries \itshape \nameref {absaut26}}{20}{subsection.4.7}
+\contentsline {subsection}{Research Software Project Typology \newline \mdseries \itshape \nameref {absaut19}}{14}{subsection.4.1}
+\contentsline {subsection}{Empirical Study of Software in Conferences \newline \mdseries \itshape \nameref {absaut20}}{16}{subsection.4.2}
+\contentsline {subsection}{Examining Sustainability for a Particular Project \newline \mdseries \itshape \nameref {absaut21}}{16}{subsection.4.3}
+\contentsline {subsection}{Making the Impact of Software more Visible \newline \mdseries \itshape \nameref {absaut22}}{17}{subsection.4.4}
+\contentsline {subsection}{Reviewing FORCE11 Software Citation Principles \newline \mdseries \itshape \nameref {absaut23}}{18}{subsection.4.5}
+\contentsline {subsection}{Future Research directions \newline \mdseries \itshape \nameref {absaut24}}{19}{subsection.4.6}
+\contentsline {subsection}{Design of the Manifesto \newline \mdseries \itshape \nameref {absaut25}}{19}{subsection.4.7}
