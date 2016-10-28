@@ -383,7 +383,7 @@ There is a need to provide insights into the scientific software ecosystem~\cite
 
 Depsy has gathered data from CRAN and PyPI as a starting point. They gather dependency and authorship information from those repositories. They identify the software in the literature using a fulltext keyword search for the name of the package. They are then able to calculate both direct mentions of each package and indirect mentions, using the PageRank algorithm.  Depsy is produced by ImpactStory (Heather Piowawar and Jason Priem)~\cite{singh_chawla_unsung_2016}.
 
-The second system presented was the Scientific Software Network Map by Bogart, Howison, and Herbsleb\footnote{\url{http://scisoft-net-map.isri.cmu.edu/:7777}}. The Map is designed to be populated from different ecosystems' software repositories, current work including data from two locations: R scripts on GitHub, and data from the Texas Advanced Computing Center gathered about jobs submitted to their supercomputing infrastructure.  The interface uses D3 for the visualizations, and Pyramid, Mongo and Jinja for the web and database framework. Maps are designed to directly address the needs of scientific software producers and stewards for usage-related information about packages. The tool's features include a usage graph over time, a filterable/sortable list of packages, a ``co-usage'' graph showing what packages were used together, and a listing of external software (\eg end-user scripts and packages under development) that depend on each package. The co-usage graph could be used to identify previously unknown clusters of packages and to bring their developers together.
+The second system presented was the Scientific Software Network Map by Bogart, Howison, and Herbsleb.\footnote{\url{http://scisoft-net-map.isri.cmu.edu/:7777}} The Map is designed to be populated from different ecosystems' software repositories, current work including data from two locations: R scripts on GitHub, and data from the Texas Advanced Computing Center gathered about jobs submitted to their supercomputing infrastructure.  The interface uses D3 for the visualizations, and Pyramid, Mongo and Jinja for the web and database framework. Maps are designed to directly address the needs of scientific software producers and stewards for usage-related information about packages. The tool's features include a usage graph over time, a filterable/sortable list of packages, a ``co-usage'' graph showing what packages were used together, and a listing of external software (\eg end-user scripts and packages under development) that depend on each package. The co-usage graph could be used to identify previously unknown clusters of packages and to bring their developers together.
 
 %------------------------------------------------------------------------
 \abstracttitle{The OSSMETER platform}
@@ -406,32 +406,31 @@ The breakout groups are detailed below in arbitrary order.
 \abstracttitle{Research Software Project Typology}
 \abstractauthor{Benoit Combemale, Jurgen Vinju, Robert Hirschfeld, Ralf Laemmel, Daniel Garijo, Christoph Becker, Caroline Jay, Robert Haines, Cecilia Aragon}
 
-Our goal here was to characterize academic software projects in a way that is meaningful for to the other ongoing discussions, such as measuring software output and acquiring funding for research software, and getting recognition of software output). The idea was that different types of projects require a different kind of treatment; \eg when discussing their motivation, impact, costs, risks, strengths and weaknesses. We'd like this to be an ontology of sorts; and largely corresponding to the general software ontology at \url{http://ontosoft.org/ontology/software/}, but more specialized to the academic software context.
+The goal of this group was to characterize academic software projects across different dimensions (\ie motivation, impact, costs, risks, strengths and weaknesses) so as to analyze their impact in 1) the creation of software outputs, 2) the acquisition of new funding and 3) the recognition of adequate author credit. Ideally, this characterization would be structured as an ontology, extending existing software metadata vocabularies like \url{http://ontosoft.org/ontology/software/}, and specializing them for academic software.
 
-A particular focus was on the roles of academic software engineers and researchers take up in the context of their software projects. This discussion led to the creation of a ``Software Credit Role'' ontology (Figure~\ref{fig:credits}) at \url{https://w3id.org/softwareCredit} by Daniel Garijo et al. The goal of this document is to provide a frame of context for appreciating the (career) contributions of academic software contributors in the context of hiring processes and progress reports. The current status is that we are aligning the software credit ontology to DOAP and schema.org. We will soon list the crosswalk to CodeMeta terms.
+
+%Our goal here was to characterize academic software projects in a way that is meaningful for to the other ongoing discussions, such as measuring software output and acquiring funding for research software, and getting recognition of software output). The idea was that different types of projects require a different kind of treatment; \eg when discussing their motivation, impact, costs, risks, strengths and weaknesses. We'd like this to be an ontology of sorts; and largely corresponding to the general software ontology at \url{http://ontosoft.org/ontology/software/}, but more specialized to the academic software context.
+
+The group paid particular attention to the different roles of academic software engineers and researchers in the context of their software projects. This discussion led to the creation of the ``Software Credit Role'' ontology at \url{https://w3id.org/softwareCredit}, which identifies the types of contributions of academic software at any stage of the software development (see Figure~\ref{fig:credits} for some examples). The ontology will soon extend DOAP\footnote{\url{http://usefulinc.com/ns/doap\#}} and schema.org\footnote{\url{http://schema.org/}}, and will be mapped to the crosswalk list CodeMeta terms\footnote{\url{https://github.com/codemeta/codemeta/blob/master/crosswalk.csv}}.
 
 \begin{figure}[t]
 \includegraphics[width=\textwidth]{credits}
 \caption{Excerpt from \url{https://w3id.org/softwareCredit} depicting the Person concept with the different roles a person could take upon themselves.\label{fig:credits}}
 \end{figure}
 
-A beginning was made with brainstorming towards a number of alternative starting points. The first session led to divisions along the lines of the following concepts: intentions of usage,
+The group also brainstormed about a number of alternative starting points. The first session led to divisions along the lines of the following concepts: intentions of usage,
 degree of openness,
 funding,
 contributors (single person, group, closed/open community),
-community (scale, culture, rights, license)
+community (scale, culture, rights, license),
 maturity (process),
-accessibility/openness,
-Openness
-Organizational form
-Engineering properties
-(Code quality,
-Test coverage,
-Benchmarking,
-Release management,
-Semantic versioning,
-other metrics
-).
+accessibility/openness and
+organizational openness from engineering properties
+(code quality,
+test coverage,
+benchmarking,
+release management,
+semantic versioning, etc.).
 
 \begin{figure}[t]
 \includegraphics[width=\textwidth]{ontologymap}
@@ -442,7 +441,7 @@ The second brainstorm resulted in the comparable mindmap depicted in Figure~\ref
 
 The final discussion produced a faceted classification with yet different distinctions mainly focused on purpose, intentions and motivations. This finally resulted in a questionnaire (shaped as an online spreadsheet at \url{https://goo.gl/ud5Ik2}) which we filled in for a few dozen projects to see if the distinctions would generate a meaningful overview of typical academic software projects.
 
-The resulting material produced enough to start working on a common paper on the topic. It is important to understand what we are talking about exactly when describing, analyzing and trying to improve academic software projects. It must be noted that clear classifications of software projects in general are not commonplace.
+The group discussions produced enough material to start working on a publication about the topic. We believe that it is important to understand, describe, analyze and improve academic software projects descriptions, as  clear classifications of software projects are not currently commonplace.
 
 
 %------------------------------------------------------------------------
